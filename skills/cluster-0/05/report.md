@@ -1,13 +1,18 @@
-#  Skill Name
+#  Install ESP32 IDF and Toolchain and Demonstrate Blink
 
-Author: FirstName LastName
+Author: Allen Zou
 
-Date: YYYY-MM-DD
+Date: 2020-09-04
 -----
 
 ## Summary
+Hello World assignment:
+<br/>
+<img src="./images/hello-world.png" width="45%" />
 
-
+Blink assignment:
+<br/>
+<img src="./images/blink.png" width="45%" />
 ## Sketches and Photos
 
 

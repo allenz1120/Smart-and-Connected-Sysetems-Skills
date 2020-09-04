@@ -1,11 +1,12 @@
-#  Skill Name
+#  Setup Editors and IDEs
 
-Author: FirstName LastName
+Author: Allen Zou
 
-Date: YYYY-MM-DD
+Date: 2020-09-04
 -----
 
 ## Summary
+I am using VS Code as my IDE
 
 
 ## Sketches and Photos

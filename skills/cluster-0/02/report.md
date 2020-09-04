@@ -1,12 +1,12 @@
-#  Skill Name
+#  Setup and Use Github Individually
 
-Author: FirstName LastName
+Author: Allen Zou
 
-Date: YYYY-MM-DD
+Date: 2020-09-04
 -----
 
 ## Summary
-
+I have set up my Github repository
 
 ## Sketches and Photos
 
