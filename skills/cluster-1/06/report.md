@@ -12,7 +12,8 @@ code snippit from:
 (https://www.quora.com/How-can-I-convert-from-decimal-to-hexadecimal-in-C-language).
 
 ## Sketches and Photos
-
+[Video of Skill Working](https://drive.google.com/file/d/1CEosCCoXKBeakOU8Wu4UbLXiiCmOy0eH/preview)
+<img src="./images/skill6.png" width="45%" />
 
 ## Modules, Tools, Source Used Including Attribution
 Hex Conversion:

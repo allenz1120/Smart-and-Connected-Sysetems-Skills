@@ -44,7 +44,7 @@ void app_main()
     };
     uart_param_config(EX_UART_NUM, &uart_config);
     uart_set_pin(EX_UART_NUM, ECHO_TEST_TXD, ECHO_TEST_RXD, ECHO_TEST_RTS, ECHO_TEST_CTS);
-    uart_driver_install(EX_UART_NUM, BUF_SIZE * 2, 0, 0, NULL, 0);
+    // uart_driver_install(EX_UART_NUM, BUF_SIZE * 2, 0, 0, NULL, 0);
 
     // Configure a temporary buffer for the incoming data
     uint8_t *data = (uint8_t *)malloc(BUF_SIZE);
@@ -118,7 +118,7 @@ void app_main()
                 if (bufNum[0] == 's')
                 {
                     mode = 0;
-                    printf("s\ntoggle mode");
+                    printf("s\ntoggle mode\n");
                 }
                 else if (isdigit(bufNum[0]))
                 {

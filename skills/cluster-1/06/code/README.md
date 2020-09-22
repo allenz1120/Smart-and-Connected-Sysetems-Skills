@@ -22,4 +22,4 @@ to enter any integer and the program will echo out the hex version of their
 input. We used a hex conversion code snippit from quora to accomplish this.
 
 
-The main code file is in the folder main.
+The main code file is in the folder main as blink.c

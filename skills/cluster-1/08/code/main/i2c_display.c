@@ -1,3 +1,5 @@
+//Allen Zou 9/20/2020
+
 /*
   Adapted I2C example code to work with the Adafruit 14-segment Alphanumeric Display. Key notes: MSB!!
 

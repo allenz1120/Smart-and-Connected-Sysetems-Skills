@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/Desktop/esp-idf/examples/get-started/blink/main
+# Install script for directory: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-1/06/code/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -14,3 +14,4 @@ after talking with Sam Krasnoff in the class, he explained to me a way to better
 automate the process and not hard code it. I then used a counter to act as a place
 holder for what number from 0-15 I am on and it increments on each cycle of the while(1)
 loop. 
+The main code is in the main folder as blink.c

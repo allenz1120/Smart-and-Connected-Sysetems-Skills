@@ -175,7 +175,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\HP\.espressif\tools\cmake\3.13.4\bin\cmake.exe -SC:\Users\HP\Desktop\esp-idf\components\bootloader\subproject -BC:\Users\HP\Desktop\esp-idf\examples\get-started\blink\build\bootloader
+  command = C:\Users\HP\.espressif\tools\cmake\3.13.4\bin\cmake.exe -SC:\Users\HP\Desktop\esp-idf\components\bootloader\subproject -BC:\Users\HP\Desktop\EC444\Zou-Allen\skills\cluster-1\06\code\build\bootloader
   description = Re-running CMake...
   generator = 1
 

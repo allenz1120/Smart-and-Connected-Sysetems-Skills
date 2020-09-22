@@ -14,6 +14,7 @@ segments to turn on. The user is then able to continuously change the display
 in the monitor.
 
 ## Sketches and Photos
+[Video of Skill Working](https://drive.google.com/file/d/1FpKjOP0tFEdnT3gcRd-q8q9coqEkmWGE/preview)
 
 
 ## Modules, Tools, Source Used Including Attribution
