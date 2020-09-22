@@ -13,7 +13,8 @@ code snippit from:
 
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/1CEosCCoXKBeakOU8Wu4UbLXiiCmOy0eH/preview)
-Screenshot of the esp terminal:
+<br>
+ESP terminal:
 <img src="./images/skill6.PNG" width="45%" />
 
 ## Modules, Tools, Source Used Including Attribution
