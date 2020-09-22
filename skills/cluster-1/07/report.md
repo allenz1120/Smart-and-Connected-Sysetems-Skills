@@ -1,4 +1,4 @@
-#  Skill Name
+#  Use GPIO to Control LEDs
 
 Author: Allen Zou
 
@@ -12,6 +12,7 @@ on four leds on the bread board. There is a 1000ms delay between each new binary
 
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/1RAPiKP6bR2SS86mGvYcB2YHcyeypE06k/preview)
+<br>
 <img src="./images/led1.jpg" width="45%" />
 <img src="./images/led2.jpg" width="45%" />
 

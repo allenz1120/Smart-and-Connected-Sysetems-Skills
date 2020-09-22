@@ -1,4 +1,4 @@
-#  Skill Name
+#  Console IO
 
 Author: Allen Zou
 Date: 2020-09-17
@@ -13,6 +13,7 @@ code snippit from:
 
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/1CEosCCoXKBeakOU8Wu4UbLXiiCmOy0eH/preview)
+Screenshot of the esp terminal:
 <img src="./images/skill6.PNG" width="45%" />
 
 ## Modules, Tools, Source Used Including Attribution
