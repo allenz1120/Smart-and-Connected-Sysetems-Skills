@@ -15,6 +15,8 @@ in the monitor.
 
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/1FpKjOP0tFEdnT3gcRd-q8q9coqEkmWGE/preview)
+<br>
+Images of the alphanumeric board:
 <img src="./images/display1.jpg" width="45%" />
 <img src="./images/display2.jpg" width="45%" />
 <img src="./images/display3.jpg" width="45%" />
