@@ -1,12 +1,12 @@
-#  Skill Name
+#  Servo
 
-Author: FirstName LastName
+Author: Allen Zou
 
-Date: YYYY-MM-DD
+Date: 2020/09/22
 -----
 
 ## Summary
-
+This program completed the task of rotating the servo to its 
 
 ## Sketches and Photos
 

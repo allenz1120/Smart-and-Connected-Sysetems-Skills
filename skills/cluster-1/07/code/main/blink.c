@@ -1,16 +1,17 @@
-/* Blink Example
+//Allen Zou 9/18/2020
 
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include "driver/uart.h"
+#include "esp_vfs_dev.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
 #include "sdkconfig.h"
+
+#define BLINK_GPIO CONFIG_BLINK_GPIO
 
 /* Can use project configuration menu (idf.py menuconfig) to choose the GPIO to blink,
    or you can edit the following line and set a number here.
@@ -28,8 +29,6 @@ void app_main(void)
        Technical Reference for a list of pads and their default
        functions.)
     */
-    int counter = 0;
-    int temp;
     gpio_set_direction(LEDPIN0, GPIO_MODE_OUTPUT);
     gpio_set_direction(LEDPIN1, GPIO_MODE_OUTPUT);
     gpio_set_direction(LEDPIN2, GPIO_MODE_OUTPUT);
@@ -39,7 +38,8 @@ void app_main(void)
     gpio_pad_select_gpio(LEDPIN1);
     gpio_pad_select_gpio(LEDPIN2);
     gpio_pad_select_gpio(LEDPIN3);
-
+    int counter = 0;
+    int temp;
     while (1)
     {
         temp = counter;

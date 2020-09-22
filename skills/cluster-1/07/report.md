@@ -1,6 +1,6 @@
 #  Skill Name
 
-Author: FirstName LastName
+Author: Allen Zou
 
 Date: 2020/09/18
 -----
