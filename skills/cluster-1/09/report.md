@@ -11,6 +11,7 @@ This program completed the task of writing and rotating the servo to its full ra
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/1tqKB0o8DmxNMgTyrWLO7gbyR2RyGdGt2/preview)
 <br>
+Pictures of the Servo
 <img src="./images/servo1.jpg" width="45%" />
 <img src="./images/servo2.jpg" width="45%" />
 
