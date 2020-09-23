@@ -1,12 +1,5 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
-
 This skill was done by setting three pins on the ESP32 board to be output gpio pins
 and modulating the power that they received. At the beginning of doing this task, I 
 was attempting to do it by hard coding the leds to blink in a specific sequence but 
