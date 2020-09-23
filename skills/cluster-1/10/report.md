@@ -13,6 +13,10 @@ direction of counting with the LED lights.
 
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/1xHOPXXwqVCvQcJBreoaSsHbqQuSFQ1Hx/preview)
+<br>
+Pictures of the program working:
+<img src="./images/ledWscreen1.jpg" width="45%" />
+<img src="./images/ledWscreen2.jpg" width="45%" />
 
 ## Modules, Tools, Source Used Including Attribution
 
