@@ -1,12 +1,5 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
-
 This code was adopted from the uart task example from the esp-idf github. We did this
 because it has the skeleton for multiple tasks already. From this skeleton, we created
 3 different tasks. One for the LED binary blinking, another for the alphanumeric
