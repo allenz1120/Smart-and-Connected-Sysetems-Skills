@@ -1,12 +1,5 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
-
 This code was adopted from the timer example from the code examples github that was 
 provided to us. We used this code as a starting point since it had configuration set
 up already for a pulsing timer using ESP32 timer functions. However, instead of
