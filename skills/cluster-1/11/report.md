@@ -15,6 +15,7 @@ timer back to 00. Once the timer reaches 99, it will also loop back down to 00.
 [Video of Skill Working](https://drive.google.com/file/d/12EGoZ2rF-0H4uJj0VuHfpYsvmS1WU2Eg/preview)
 <br>
 Timer display:
+<br>
 <img src="./images/timer1.jpg" width="45%" />
 <img src="./images/timer2.jpg" width="45%" />
 
