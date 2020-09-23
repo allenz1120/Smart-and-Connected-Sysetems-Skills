@@ -1,13 +1,5 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
-
-
 This code was adopted from the mcpwm servo control example from the esp-idf github.
 We used this code since it had all the configurations set up for the servo that we 
 use in this skill. To wire up the servo, we connected it to ground, power and GPIO
