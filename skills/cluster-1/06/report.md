@@ -15,6 +15,7 @@ code snippit from:
 [Video of Skill Working](https://drive.google.com/file/d/1CEosCCoXKBeakOU8Wu4UbLXiiCmOy0eH/preview)
 <br>
 ESP terminal:
+<br>
 <img src="./images/skill6.PNG" width="45%" />
 
 ## Modules, Tools, Source Used Including Attribution
