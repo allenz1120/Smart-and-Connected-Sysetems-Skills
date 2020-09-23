@@ -1,4 +1,4 @@
-#  Skill Name
+#  Alphanumeric I2C Display
 
 Author: Allen Zou
 
@@ -20,7 +20,7 @@ Images of the alphanumeric board:
 <br>
 <img src="./images/display1.jpg" width="45%" />
 <img src="./images/display2.jpg" width="45%" />
-<img src="./images/display3.jpg" width="45%" />
+<center><img src="./images/display3.jpg" width="45%" /></center>
 
 
 ## Modules, Tools, Source Used Including Attribution
