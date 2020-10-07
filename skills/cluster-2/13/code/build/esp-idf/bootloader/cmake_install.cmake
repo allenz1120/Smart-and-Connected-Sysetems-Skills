@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/bootloader
+# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/bootloader
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

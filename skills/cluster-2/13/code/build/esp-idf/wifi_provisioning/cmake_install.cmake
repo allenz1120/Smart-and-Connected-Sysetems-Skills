@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/wifi_provisioning
+# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/wifi_provisioning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

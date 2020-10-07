@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/nghttp
+# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/nghttp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/tcpip_adapter
+# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/tcpip_adapter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
