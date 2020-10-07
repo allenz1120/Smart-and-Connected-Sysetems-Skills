@@ -17,7 +17,7 @@ ESP terminal:
 <br>
 Resistor Setup:
 <br>
-<img src="./images/voltage1.PNG" width="45%" />
+<img src="./images/setup.jpg" width="45%" />
 
 
 ## Modules, Tools, Source Used Including Attribution
