@@ -1304,7 +1304,7 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_main
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\HP\.espressif\tools\cmake\3.13.4\bin\cmake.exe -SC:\Users\HP\Desktop\EC444\esp-idf\examples\peripherals\adc -BC:\Users\HP\Desktop\EC444\esp-idf\examples\peripherals\adc\build
+  command = C:\Users\HP\.espressif\tools\cmake\3.13.4\bin\cmake.exe -SC:\Users\HP\Desktop\EC444\Zou-Allen\skills\cluster-2\16\code -BC:\Users\HP\Desktop\EC444\Zou-Allen\skills\cluster-2\16\code\build
   description = Re-running CMake...
   generator = 1
 

@@ -1,4 +1,5 @@
-//Allen Zou 9/25/2020
+//Allen Zou
+//10/6/2020
 
 /* ADC1 Example
 

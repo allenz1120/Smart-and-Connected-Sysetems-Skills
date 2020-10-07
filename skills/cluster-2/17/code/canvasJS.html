@@ -1,0 +1,33 @@
+<!-- Allen Zou 10/6/2020 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <div id="chartContainer" style="height: 370px; width: 100%"></div>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <ul id="events"></ul>
+  <script>
+    const $events = document.getElementById("events");
+
+    const newItem = (content) => {
+      const item = document.createElement("li");
+      item.innerText = content;
+      return item;
+    };
+
+    const socket = io();
+
+    socket.on("", (amazon, facebook) => {
+      $events.appendChild(newItem(`${amazon}\n${facebook}`));
+    });
+  </script>
+  </script>
+</body>
+
+</html>

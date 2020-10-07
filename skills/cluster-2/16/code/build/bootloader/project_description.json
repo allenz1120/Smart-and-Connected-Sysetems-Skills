@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Users/HP/Desktop/esp-idf/components/bootloader/subproject",
-    "build_dir":          "C:/Users/HP/Desktop/EC444/esp-idf/examples/peripherals/adc/build/bootloader",
-    "config_file":        "C:/Users/HP/Desktop/EC444/esp-idf/examples/peripherals/adc/sdkconfig",
+    "build_dir":          "C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/16/code/build/bootloader",
+    "config_file":        "C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/16/code/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

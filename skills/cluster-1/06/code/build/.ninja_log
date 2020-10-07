@@ -986,3 +986,8 @@
 571	1959	6225072279668579	esp-idf/esp32/ld/esp32.project.ld	82e721852cf70c99
 1959	2588	6225072285986585	blink.elf	3d00006961b74ce7
 2588	2814	6225072288184098	.bin_timestamp	e0eb8491086fff2d
+47	178	0	esp-idf/partition_table/CMakeFiles/partition_table	222c79932bd11eab
+179	235	6225068783157050	bootloader-prefix/src/bootloader-stamp/bootloader-build	b937882aad3865f3
+179	235	6225068783157050	bootloader/bootloader.elf	b937882aad3865f3
+179	235	6225068783157050	bootloader/bootloader.bin	b937882aad3865f3
+179	235	6225068783157050	bootloader/bootloader.map	b937882aad3865f3
