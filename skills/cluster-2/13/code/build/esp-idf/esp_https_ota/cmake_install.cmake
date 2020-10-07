@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/esp_https_ota
+# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/esp_https_ota
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

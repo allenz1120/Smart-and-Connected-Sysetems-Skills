@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/esp_serial_slave_link
+# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/esp_serial_slave_link
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

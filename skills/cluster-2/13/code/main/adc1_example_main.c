@@ -122,10 +122,12 @@ void app_main(void)
         adc_reading /= NO_OF_SAMPLES;
         //Convert adc_reading to voltage in mV
         float voltage = esp_adc_cal_raw_to_voltage(adc_reading, adc_chars);
-        float resistance = (10000 * adc_reading / (4095 - adc_reading));
+        float resistance = (10000 * (3.3 - voltage / 1000.0)) / (voltage / 1000.0);
         //Simplified Steinhart-Hart equation from https://learn.adafruit.com/thermistor/using-a-thermistor
         float temperature = 1.0 / ((1.0 / 298.15) + (1.0 / 3435.0) * log(resistance / 10000.0));
-        printf("Raw: %d\tVoltage: %fmV\tTemperature: %f\tResistance: %f\n", adc_reading, voltage, temperature, resistance);
-        vTaskDelay(pdMS_TO_TICKS(100));
+        temperature -= 273;
+        temperature = temperature * 9 / 5 + 32;
+        printf("Temperature: %f\n", temperature);
+        vTaskDelay(pdMS_TO_TICKS(2000));
     }
 }

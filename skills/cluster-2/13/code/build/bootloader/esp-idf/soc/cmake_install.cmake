@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/soc
+# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/soc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

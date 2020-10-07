@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/idf_test
+# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/idf_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

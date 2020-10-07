@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/Desktop/esp-idf/components/mbedtls
+# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/components/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/HP/Desktop/EC444/esp-idf/examples/peripherals/adc/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 
 endif()
 
