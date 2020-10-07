@@ -1,8 +1,3 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This code was adopted from the ADC1 example provided to us since it had the framework for reading ADC data. We converted the voltage reading from the ADC into resistance by comparing it to the thermistor's internal resistance. This resistance is then plugged into the Simplified Steinhart-Hart equation that we found on adafruit. This produced the temperature in kelvin and by manipulating that output, we were able to generate the fahrenheit reading. There is a VTaskDelay of 2000ms so the thermistor samples the temperature every two seconds. The code file can be found in the main folder.
