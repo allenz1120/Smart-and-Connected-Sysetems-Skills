@@ -1,8 +1,2 @@
 # Code Readme
-
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This program reads the voltage data from the ultrasonic sensor every 2 seconds. To convert this voltage data into relevant range data, we used the MaxSonar Datasheet to calculate the conversion rate from mV to cm. Our sensor has a rate of voltage source/1024 which was 4.883 or 3.22 depending on the voltage supplied. The data is then logged to the console. The code file is located in the main folder.
