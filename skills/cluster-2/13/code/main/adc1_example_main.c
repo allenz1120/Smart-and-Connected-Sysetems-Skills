@@ -127,7 +127,7 @@ void app_main(void)
         float temperature = 1.0 / ((1.0 / 298.15) + (1.0 / 3435.0) * log(resistance / 10000.0));
         temperature -= 273;
         temperature = temperature * 9 / 5 + 32;
-        printf("Temperature: %f\n", temperature);
+        printf("Temperature, %f\n", temperature);
         vTaskDelay(pdMS_TO_TICKS(2000));
     }
 }
