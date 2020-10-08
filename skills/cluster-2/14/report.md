@@ -10,6 +10,10 @@ This program completes all the tasks required in skill 14. It is able to read di
 
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/1CVGsGA8sBBzq37AvpP_14UJzjhQLRQuM/preview)
+<br>
+Breadboard Setup:
+<br>
+<img src="./images/ultra1.png" width="45%" />
 
 ## Modules, Tools, Source Used Including Attribution
 
