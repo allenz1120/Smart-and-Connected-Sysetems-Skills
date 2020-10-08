@@ -1,8 +1,2 @@
 # Code Readme
-
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This folder contains the files for displaying a canvasJS chart on port 8080. The two files, canvasJS.js and canvasJS2.js both create an express server and use socet.io to send data to the canvasJS.html file. The data that it passes is imported and parsed from the stocks.csv file and put into a stockSettings object that is compatible with the canvasJS render in the HTML file. To run the server, you can run node ./canvasJS.js or node ./canvasJS2.js
