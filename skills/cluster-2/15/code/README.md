@@ -1,8 +1,2 @@
 # Code Readme
-
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+In this program, we used the IR rangefinder datasheet to find the slope and y intercept to convert voltage data into range data
