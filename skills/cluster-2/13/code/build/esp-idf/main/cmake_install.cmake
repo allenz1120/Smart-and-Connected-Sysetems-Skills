@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/main
+# Install script for directory: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

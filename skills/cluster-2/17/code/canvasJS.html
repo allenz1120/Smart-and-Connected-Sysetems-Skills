@@ -1,4 +1,4 @@
-<!-- Allen Zou 10/6/2020 -->
+<!-- Allen Zou 10/7/2020 -->
 
 <!DOCTYPE html>
 <html>
@@ -10,24 +10,23 @@
 <body>
   <div id="chartContainer" style="height: 370px; width: 100%"></div>
   <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <ul id="events"></ul>
   <script>
-    const $events = document.getElementById("events");
 
-    const newItem = (content) => {
-      const item = document.createElement("li");
-      item.innerText = content;
-      return item;
-    };
+    $(function () {
+      const socket = io();
 
-    const socket = io();
+      socket.on("", function (chartSettings) {
+        var chart = new CanvasJS.Chart("chartContainer", chartSettings);
+        console.log(chartSettings);
+        chart.render();
+      });
+    })
 
-    socket.on("", (amazon, facebook) => {
-      $events.appendChild(newItem(`${amazon}\n${facebook}`));
-    });
   </script>
-  </script>
+
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 The target system is: Generic -  - 
-The host system is: Windows - 10.0.19041 - AMD64
+The host system is: Windows - 10.0.18362 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe 
+Compiler: C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe 
 Build flags: -mlongcalls;-Wno-frame-address
 Id flags:  
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/3.13.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/3.13.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe 
+Compiler: C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe 
 Build flags: -mlongcalls;-Wno-frame-address
 Id flags:  
 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 xtensa-esp32-elf-gcc.exe (crosstool-NG esp-2020r2) 8.2.0
@@ -33,97 +33,97 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_7882d"
-[1/2] Building C object CMakeFiles/cmTC_7882d.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_7882d
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_89c5a"
+[1/2] Building C object CMakeFiles/cmTC_89c5a.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_89c5a
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_bf46e"
-[1/2] Building C object CMakeFiles/cmTC_bf46e.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_bf46e
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_14dca"
+[1/2] Building C object CMakeFiles/cmTC_14dca.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_14dca
 Using built-in specs.
-COLLECT_GCC=C:\Users\allenzou\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe
-COLLECT_LTO_WRAPPER=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe
+COLLECT_GCC=C:\Users\HP\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe
+COLLECT_LTO_WRAPPER=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe
 Target: xtensa-esp32-elf
 Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
 Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2020r2) 
-COMPILER_PATH=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/;c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
-LIBRARY_PATH=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/;c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_bf46e'
- c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\allenzou\AppData\Local\Temp\ccSRZLql.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_bf46e c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_bf46e.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_bf46e'
+COMPILER_PATH=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/;c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/;c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_14dca'
+ c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccl5WIcH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_14dca c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_14dca.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_14dca'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_bf46e"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_bf46e.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [[2/2] Linking C executable cmTC_bf46e]
+  ignore line: [Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_14dca"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_14dca.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_14dca]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\Users\allenzou\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe]
+  ignore line: [COLLECT_GCC=C:\Users\HP\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe]
   ignore line: [Target: xtensa-esp32-elf]
   ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
-  ignore line: [COMPILER_PATH=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/]
-  ignore line: [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/]
-  ignore line: [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
-  ignore line: [LIBRARY_PATH=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/]
-  ignore line: [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/]
-  ignore line: [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_bf46e']
-  link line: [ c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\allenzou\AppData\Local\Temp\ccSRZLql.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_bf46e c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_bf46e.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe] ==> ignore
+  ignore line: [COMPILER_PATH=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/]
+  ignore line: [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/]
+  ignore line: [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/]
+  ignore line: [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/]
+  ignore line: [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_14dca']
+  link line: [ c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccl5WIcH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_14dca c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_14dca.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
-    arg [-plugin-opt=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\allenzou\AppData\Local\Temp\ccSRZLql.res] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccl5WIcH.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bf46e] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
-    arg [-Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
-    arg [-Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
-    arg [-Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_bf46e.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [cmTC_14dca] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
+    arg [-Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
+    arg [-Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
+    arg [-Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [CMakeFiles/cmTC_14dca.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-lnosys] ==> lib [nosys]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o] ==> ignore
-  collapse library dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
-  collapse library dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc]
-  collapse library dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o] ==> ignore
+  collapse library dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
+  collapse library dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc]
+  collapse library dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
   implicit libs: [gcc;c;nosys;c;gcc]
-  implicit dirs: [C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0;C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc;C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+  implicit dirs: [C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0;C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc;C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_a8589"
-[1/2] Building C object CMakeFiles/cmTC_a8589.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_a8589
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_c8b90"
+[1/2] Building C object CMakeFiles/cmTC_c8b90.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_c8b90
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -133,11 +133,11 @@ Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cm
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_8b541"
-[1/2] Building C object CMakeFiles/cmTC_8b541.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_8b541
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_5457f"
+[1/2] Building C object CMakeFiles/cmTC_5457f.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_5457f
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,11 +147,11 @@ Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cm
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_af620"
-[1/2] Building C object CMakeFiles/cmTC_af620.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_af620
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_7138a"
+[1/2] Building C object CMakeFiles/cmTC_7138a.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_7138a
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -159,74 +159,74 @@ Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cm
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_2823b"
-[1/2] Building CXX object CMakeFiles/cmTC_2823b.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_2823b
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_80c47"
+[1/2] Building CXX object CMakeFiles/cmTC_80c47.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_80c47
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_6d50e"
-[1/2] Building CXX object CMakeFiles/cmTC_6d50e.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_6d50e
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_28b72"
+[1/2] Building CXX object CMakeFiles/cmTC_28b72.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_28b72
 Using built-in specs.
-COLLECT_GCC=C:\Users\allenzou\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe
-COLLECT_LTO_WRAPPER=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe
+COLLECT_GCC=C:\Users\HP\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe
+COLLECT_LTO_WRAPPER=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe
 Target: xtensa-esp32-elf
 Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
 Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2020r2) 
-COMPILER_PATH=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/;c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
-LIBRARY_PATH=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/;c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_6d50e'
- c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\allenzou\AppData\Local\Temp\cch2MwAr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_6d50e c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_6d50e.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_6d50e'
+COMPILER_PATH=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/;c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/;c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_28b72'
+ c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccYgZPuz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_28b72 c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_28b72.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_28b72'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_6d50e"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_6d50e.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [[2/2] Linking CXX executable cmTC_6d50e]
+  ignore line: [Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_28b72"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_28b72.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_28b72]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\Users\allenzou\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe]
+  ignore line: [COLLECT_GCC=C:\Users\HP\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe]
   ignore line: [Target: xtensa-esp32-elf]
   ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
-  ignore line: [COMPILER_PATH=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/]
-  ignore line: [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/]
-  ignore line: [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
-  ignore line: [LIBRARY_PATH=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/]
-  ignore line: [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/]
-  ignore line: [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_6d50e']
-  link line: [ c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\allenzou\AppData\Local\Temp\cch2MwAr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_6d50e c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_6d50e.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe] ==> ignore
+  ignore line: [COMPILER_PATH=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/]
+  ignore line: [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/]
+  ignore line: [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/]
+  ignore line: [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/]
+  ignore line: [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_28b72']
+  link line: [ c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccYgZPuz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_28b72 c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_28b72.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
-    arg [-plugin-opt=c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\allenzou\AppData\Local\Temp\cch2MwAr.res] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccYgZPuz.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6d50e] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
-    arg [-Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
-    arg [-Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
-    arg [-Lc:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_6d50e.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [cmTC_28b72] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
+    arg [-Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
+    arg [-Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
+    arg [-Lc:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [CMakeFiles/cmTC_28b72.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -234,24 +234,24 @@ Parsed CXX implicit link information from above output:
     arg [-lnosys] ==> lib [nosys]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o] ==> ignore
-    arg [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o] ==> ignore
-  collapse library dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
-  collapse library dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc]
-  collapse library dir [c:/users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o] ==> ignore
+    arg [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o] ==> ignore
+  collapse library dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
+  collapse library dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc]
+  collapse library dir [c:/users/hp/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
   implicit libs: [stdc++;m;gcc;c;nosys;c;gcc]
-  implicit dirs: [C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0;C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc;C:/Users/allenzou/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
+  implicit dirs: [C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0;C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc;C:/Users/HP/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_47811"
-[1/2] Building CXX object CMakeFiles/cmTC_47811.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_47811
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_532b7"
+[1/2] Building CXX object CMakeFiles/cmTC_532b7.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_532b7
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -314,11 +314,11 @@ Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cm
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_bafc1"
-[1/2] Building CXX object CMakeFiles/cmTC_bafc1.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_bafc1
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_73ec3"
+[1/2] Building CXX object CMakeFiles/cmTC_73ec3.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_73ec3
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -381,11 +381,11 @@ Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cm
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_60501"
-[1/2] Building CXX object CMakeFiles/cmTC_60501.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_60501
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_5f0e7"
+[1/2] Building CXX object CMakeFiles/cmTC_5f0e7.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_5f0e7
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -448,11 +448,11 @@ Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cm
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_cd005"
-[1/2] Building CXX object CMakeFiles/cmTC_cd005.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_cd005
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_8dc67"
+[1/2] Building CXX object CMakeFiles/cmTC_8dc67.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_8dc67
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -515,11 +515,11 @@ Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cm
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: C:/Users/allenzou/Desktop/esp-idf-2/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-2/13/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Users/allenzou/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_0133f"
-[1/2] Building CXX object CMakeFiles/cmTC_0133f.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_0133f
+Run Build Command:"C:/Users/HP/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_ec19f"
+[1/2] Building CXX object CMakeFiles/cmTC_ec19f.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_ec19f
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
