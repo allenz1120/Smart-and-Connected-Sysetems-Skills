@@ -9,7 +9,7 @@ Date: 2020-10-08
 This program completes all the tasks required in this skill. I have all the tutorials from W3 schools completed and I have a serial.js file that reads data from the ESP outside of the ESP terminal.
 
 ## Sketches and Photos
-Video of Skill Working](https://drive.google.com/file/d/1xyQxfkOr7PganfefMvgsGUKUAZWiFci3/preview)
+[Video of Skill Working](https://drive.google.com/file/d/1xyQxfkOr7PganfefMvgsGUKUAZWiFci3/preview)
 <br>
 Serial.js working
 <br>
