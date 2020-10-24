@@ -11,7 +11,7 @@ This program completes the tasks required of this skill. I was able to configure
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/1tL75e3vmIQlv0xhkIgIboZWpE7ZI_UY3/preview)
 <br>
-Raspberrypi Camera Setup
+Terminal Output for Station Example
 <br>
 <img src="./images/terminal.png" width="45%" />
 <br>
