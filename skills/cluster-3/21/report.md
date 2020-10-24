@@ -18,6 +18,7 @@ Raspberrypi Camera Setup
 
 ## Modules, Tools, Source Used Including Attribution
 hackster webcam tutorial: https://www.hackster.io/narender-singh/portable-video-streaming-camera-with-raspberry-pi-zero-w-dc22fd
+raspberrypi camera setup: https://www.raspberrypi.org/documentation/configuration/camera.md
 
 ## Supporting Artifacts
 
