@@ -1,8 +1,3 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+The code for this skill was simple and meant to test the success/functionality of the Raspberry Pi setup with DDNS. In this code, I simply use the built-in http module to create a local web server on port 8080 that displays "Hello World" to the browser.
