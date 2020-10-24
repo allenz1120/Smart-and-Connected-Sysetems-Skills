@@ -1,8 +1,3 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This code is based off of the ledc example from the esp directory. The full ledc test duty is set to 4000. At time 0, it sets the intensity to 0, but every 250ms, the loop increases the intensity by 10%. It does this by incrementing a counter by 10 and dividing it by 100. 
