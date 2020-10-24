@@ -1,8 +1,3 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This code was created using the i2c-accel example from the code-examples directory. The four parts of the program are the read/write functions and the calculations for pitch and roll. We based the read/write functions on the getDeviceID function. For reading and writing, we generally follow the pattern of starting the command and writing the slave address. Then, depending on if we are writing or reading, we send data or send the slave address of the register we want to read from. The last read/write function uses bitwise operators to combine 2 bytes into a 16 bit word. The roll and pitch calculations were done using the formulas given by the professor during lecture
