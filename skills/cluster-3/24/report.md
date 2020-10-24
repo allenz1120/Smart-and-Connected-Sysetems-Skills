@@ -13,11 +13,11 @@ This program completes all the tasks required in this skill. The LED cycles its 
 <br>
 Low Intensity LED
 <br>
-<img src="./images/ledd.jpg" width="45%" />
+<img src="./images/ledd.png" width="45%" />
 <br>
 High Intensity LED
 <br>
-<img src="./images/ledb.jpg" width="45%" />
+<img src="./images/ledb.png" width="45%" />
 ## Modules, Tools, Source Used Including Attribution
 
 
