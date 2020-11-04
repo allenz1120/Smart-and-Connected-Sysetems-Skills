@@ -1,8 +1,2 @@
 # Code Readme
-
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This code was adopted from the ir-car-beacon example since it had the framework for sending IR signals using FOBs. One specific thing that we changed in order to have the sample code work was updating the RXD variable to UART_SIGNAL_RXD_INV since the old version was depricated. After this, we removed the timer methods since we wanted to allow the user to control the LED without a timer. We changed the button task to increment the myID variable which in turn changed the LED light. Then, the IR payload would constantly send the myID data which will be recieved by the other FOB and changes to the respective LED.
