@@ -57,7 +57,9 @@ Economic loss (turn off irrigation, cause crops to fail)
 
 ## Sketches and Photos
 Sketch of overall flow for driving the car:
-![IMG-8397](https://user-images.githubusercontent.com/50682462/99042380-a1657f80-255a-11eb-8a42-3ffc09bc646b.jpg)
+<br>
+<img src="./images/chart.jpg" width="45%" />
+
 
 ## Modules, Tools, Source Used Including Attribution
 Citations:
