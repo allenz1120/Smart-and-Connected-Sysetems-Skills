@@ -47,8 +47,8 @@
 #define TIMER_INTERVAL_SEC (1)                       // Sample test interval for the first timer
 #define TEST_WITH_RELOAD 1                           // Testing will be done with auto reload
 //Timer Variables
-#define ELECTION_TIMEOUT 6
-#define LEADER_TIMEOUT 50
+#define ELECTION_TIMEOUT 15
+#define LEADER_TIMEOUT 30
 #define HEARTBEAT 1
 #define UDP_TIMER 3
 
@@ -154,10 +154,16 @@ static void timer_evt_task(void *arg)
             // printf("Action!\n");
             timeout--;
             udpTimer--;
-            if (timeout <= 0 && deviceState == ELECTION_STATE)
+            if (timeout < 0 && deviceState == ELECTION_STATE)
             {
-                printf("GOING TO LEADER STATE\n");
+                // printf("GOING TO LEADER STATE\n");
                 deviceState = LEADER_STATE; // Change to leader state (Last remaining device in election state)
+            }
+
+            if (timeout < 0 && deviceState == FOLLOWER_STATE)
+            {
+                deviceState = ELECTION_STATE; // Change to election state
+                timeout = ELECTION_TIMEOUT;   // Change timeout variable to election timeout constant
             }
 
             if (deviceState == LEADER_STATE)
@@ -306,17 +312,17 @@ static void udp_server_task(void *pvParameters)
 
                     token = strtok(NULL, ",");
                 }
-                // printf("recv_status is %s\n, recv_ID is %s\n, reccv_deviceAge is %s\n, recv_leaderHeartbeat is %s \n", recv_status, recv_ID, recv_deviceAge, recv_leaderHeartbeat);
 
-                // ESP_LOGI(TAG, "Received %d bytes from %s:", len, addr_str);
-                // ESP_LOGI(TAG, "%s", rx_buffer);
+                ESP_LOGI(TAG, "Received %d bytes from %s:", len, addr_str);
+                printf("recv_status is %s, recv_ID is %s, reccv_deviceAge is %s, recv_leaderHeartbeat is %s \n", recv_status, recv_ID, recv_deviceAge, recv_leaderHeartbeat);
+                ESP_LOGI(TAG, "%s", rx_buffer);
 
                 // Check device state and handle incoming data accordingly
                 int myID_num = atoi(myID);
                 int recv_ID_num = atoi(recv_ID);
                 if (deviceState == ELECTION_STATE)
                 {
-                    printf("ELECTION STATE\n");
+                    printf("ELECTION STATE with timeout %d\n", timeout);
                     strcpy(status, "No_Leader"); // Status is "No_Leader"
                     strcpy(transmitting, "Yes"); // Continue transmitting
                     if (myID_num < recv_ID_num)
@@ -324,17 +330,19 @@ static void udp_server_task(void *pvParameters)
                         deviceState = ELECTION_STATE; // Stay in election state
                         strcpy(status, "No_Leader");  // Status is "No_Leader"
                         strcpy(transmitting, "Yes");  // Continue transmitting
-                        timeout = ELECTION_TIMEOUT;   // Reset election timeout
+                        printf("My id was lower than recv and i am resetting timeout \n");
+                        timeout = ELECTION_TIMEOUT; // Reset election timeout
                     }
                     else if (myID_num > recv_ID_num)
                     {
                         deviceState = FOLLOWER_STATE; // Change to follower state
-                        timeout = LEADER_TIMEOUT;     // Change timeout variable to leader timeout constant
+                        printf("My id was higher than recv and i am going to follower \n");
+                        timeout = LEADER_TIMEOUT; // Change timeout variable to leader timeout constant
                     }
                 }
                 else if (deviceState == FOLLOWER_STATE)
                 {
-                    printf("FOLLOWER STATE\n");
+                    printf("FOLLOWER STATE with timeout of %d\n", timeout);
                     udpTimer = UDP_TIMER * 2;
                     strcpy(transmitting, "No"); // Stop transmitting
                     if (strcmp(recv_deviceAge, "New") == 0)
@@ -345,11 +353,6 @@ static void udp_server_task(void *pvParameters)
                     {
                         timeout = LEADER_TIMEOUT; // Reset leader timeout upon receiving leader heartbeat
                         strcpy(status, "Leader"); // Update status to leader upon receiving leader heartbeat
-                    }
-                    else if (timeout <= 0)
-                    {
-                        deviceState = ELECTION_STATE; // Change to election state
-                        timeout = ELECTION_TIMEOUT;   // Change timeout variable to election timeout constant
                     }
                 }
                 else if (deviceState == LEADER_STATE)
@@ -459,7 +462,8 @@ static void udp_client_task(void *pvParameters)
                 strcat(data, leaderHeartbeat);
 
                 payload = data;
-                // printf("payload is: %s", payload);
+                printf("payload is: %s", payload);
+                printf(" and we are in %d with a timeout of %d\n", deviceState, timeout);
                 // printf("\n");
 
                 int err = sendto(sock, payload, strlen(payload), 0, (struct sockaddr *)&dest_addr, sizeof(dest_addr));
