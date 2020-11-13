@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/Desktop/EC444/esp-idf/examples/protocols/sockets/udp_server/main
+# Install script for directory: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-4/28/code/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
