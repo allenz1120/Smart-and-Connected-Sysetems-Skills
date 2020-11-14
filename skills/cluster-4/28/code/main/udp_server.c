@@ -406,7 +406,7 @@ static void udp_server_task(void *pvParameters)
 #define HOST_IP_ADDR "192.168.1.171"
 // #endif
 
-#define PORT2 9003
+#define PORT2 9002
 
 // static const char *TAG = "example";
 
