@@ -1,8 +1,2 @@
 # Code Readme
-
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This program was adopted from the Whizzer FSM brief. Using the patter, we create two states "MOLE_DOWN_STATE" and "MOLE_UP_STATE". Inside each state, it had conditionals for how to switch between each state
