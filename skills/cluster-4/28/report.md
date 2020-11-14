@@ -11,6 +11,10 @@ This program completes all the tasks required in skill 28. The fob is able to co
 ## Sketches and Photos
 [Video of Skill Working](https://drive.google.com/file/d/11nClcgYWpj0cwL-My4nOi-wQYwVZT67v/preview)
 <br>
+State Diagram
+<br>
+<img src="./images/state.jpeg" width="45%" />
+<br>
 Terminal
 <br>
 <img src="./images/Terminal.PNG" width="45%" />
