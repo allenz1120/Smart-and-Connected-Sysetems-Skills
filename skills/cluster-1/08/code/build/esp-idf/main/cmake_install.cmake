@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/Desktop/EC444/code-examples/i2c-display/main
+# Install script for directory: C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-1/08/code/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
