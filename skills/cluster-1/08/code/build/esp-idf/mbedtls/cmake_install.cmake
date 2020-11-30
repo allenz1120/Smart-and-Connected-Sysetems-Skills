@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/HP/Desktop/EC444/code-examples/i2c-display/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-1/08/code/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 
 endif()
 

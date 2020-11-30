@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/HP/Desktop/EC444/code-examples/i2c-display/build/bootloader/esp-idf/cmake_install.cmake")
+  include("C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-1/08/code/build/bootloader/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/HP/Desktop/EC444/code-examples/i2c-display/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/HP/Desktop/EC444/Zou-Allen/skills/cluster-1/08/code/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
