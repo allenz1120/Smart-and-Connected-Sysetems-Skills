@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+f1d22b4837b2dcdfa6c1e615c5d6e75a21171ba0 refs/heads/master
+8a20cc85fc64f81374a139de1690dfd0289631e7 refs/heads/skill_25
+f27a113f12a51af78ff66f87c71e512403d72bf4 refs/heads/test
+985ea745eb61deacf49abddb5b2c0394a79c8feb refs/remotes/origin/master
+8a20cc85fc64f81374a139de1690dfd0289631e7 refs/remotes/origin/skill_25
+f27a113f12a51af78ff66f87c71e512403d72bf4 refs/remotes/origin/test
