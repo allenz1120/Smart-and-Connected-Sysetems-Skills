@@ -1,4 +1,5 @@
-//John Kircher, 11/16/2020
+//Allen Zou
+// 11/22/2020
 
 /* servo motor control example
    This example code is in the Public Domain (or CC0 licensed, at your option.)
