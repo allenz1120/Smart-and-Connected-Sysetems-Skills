@@ -1,8 +1,3 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This program was adopted from the accelerometer code from skill 23 since we already had a baseline fo the reading and writing functions. Our system uses the Garmin V4 Lidar sensor and we connected it to 5v, ground, the SLC and SDA ports on the ESP32. Throughout the program, it calls the lidarRead task and at the beginning of each cycle, the Lidar writes 0x04 to register 0x00 using the writeRegister function. Then, it reads register 0x01 using the readRegister functino until it reads 0x00. Then, it reads the high and low distance values and adds them into a 16 bit int which is the distance value that is outputted into terminal.
