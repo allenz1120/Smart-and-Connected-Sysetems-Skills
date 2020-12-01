@@ -1,8 +1,3 @@
 # Code Readme
 
-Please describe what is in your code folder and subfolders. Make it
-easy for us to navigate this space.
-
-Also
-- Please provide your name and date in any code submitted
-- Indicate attributrion for any code you have adopted from elsewhere
+This program uses code from skill 14 since we used the ultrasonic sensor in the skill. It continuously reads the range and sets a variable called error which is a setpoint - range. Then the ESP uses conditionals to light up LEDs based on the error value.
