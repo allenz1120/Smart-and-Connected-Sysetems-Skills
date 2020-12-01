@@ -15,11 +15,11 @@ Crawler Setup
 <br>
 <img src="./images/encoder.jpg" width="45%" />
 <br>
-Old Encoder Setup
+Old Encoder Setup on Top of Crawler
 <br>
 <img src="./images/encoder2.jpg" width="45%" />
 <br>
-New Encoder Setup
+New Encoder Setup on Bottom of Crawler
 <br>
 <img src="./images/encoder3.jpg" width="45%" />
 
